@@ -2,7 +2,7 @@
 
 Criado modulo Bucket para armazenamento de valores usando Agent.
 
-Teste para as funções já ok
+Teste para as funções já ok -- Testes alterados para uso de callback
 
 **TODO: Add description**
 
