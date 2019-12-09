@@ -38,7 +38,7 @@ defmodule Weather.WeatherFunctions do
         end
     end
        
-    defp kelvin_to_celsius(kelvin) do
+    def kelvin_to_celsius(kelvin) do
         (kelvin - 273.15)
         |> Float.round(1)
     end
