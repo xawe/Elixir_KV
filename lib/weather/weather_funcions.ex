@@ -1,6 +1,6 @@
 defmodule Weather.WeatherFunctions do
 
-    def get_endpoint(location) do
+    defp get_endpoint(location) do
         "http://127.0.0.1:4000//api/take/#{location}"
     end
 
@@ -38,7 +38,7 @@ defmodule Weather.WeatherFunctions do
         end
     end
        
-    defp kelvin_to_celsius(kelvin) do
+    def kelvin_to_celsius(kelvin) do
         (kelvin - 273.15)
         |> Float.round(1)
     end
